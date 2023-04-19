@@ -15,6 +15,7 @@ const char* funnyText[] =
  "This really isnt ok",
  "Just feed me RFID cards!",
  "Forget to charge me too?"};
+//wow what the hell is this? this is depressing
 
 int funnyTextIndex = 0;
 
@@ -38,7 +39,7 @@ static void draw_callback(Canvas* canvas, void* ctx) {
     }
 
     //strings
-    canvas_set_font(canvas, FontBatteryPercent);
+    canvas_set_font(canvas, FontSecondary);
     canvas_draw_str(canvas, 3, 9, funnyText[funnyTextIndex]);
     canvas_set_font(canvas, FontSecondary);
     snprintf(strButthurt, 16, "Butthurt: %lu", stateLocal->data.butthurt);

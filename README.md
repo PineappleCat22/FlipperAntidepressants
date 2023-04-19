@@ -1,4 +1,4 @@
-i forked this so i could compile it on FlipC and damn it doesnt even compile due to api mismatch
+i forked this so i could compile it on FlipC
 
 # FlipperAntidepressants  
 

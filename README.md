@@ -1,3 +1,5 @@
+i forked this so i could compile it on FlipC and damn it doesnt even compile due to api mismatch
+
 # FlipperAntidepressants  
 
 Flipper application that allows changing of the background XP and Butthurt values
